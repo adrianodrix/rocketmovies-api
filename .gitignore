@@ -1,0 +1,7 @@
+/random
+/.vscode
+/node_modules
+*.db
+/temp/uploads
+.env
+*.db
