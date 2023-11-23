@@ -5,7 +5,9 @@
   "scripts": {
     "start": "pm2-runtime start ecosystem.config.cjs --env production",
     "stop": "pm2 stop ecosystem.config.cjs",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "migrate": "knex migrate:latest",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "license": "ISC",
